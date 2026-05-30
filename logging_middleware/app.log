@@ -1,0 +1,44 @@
+[2026-05-30T05:28:39.741Z] [INFO] === Campus Priority Inbox — Stage 1 Started ===
+[2026-05-30T05:28:39.750Z] [INFO] Fetching notifications from: http://4.224.186.213/evaluation-service/notifications
+[2026-05-30T05:28:39.873Z] [INFO] API Status Code: 401
+[2026-05-30T05:28:39.880Z] [ERROR] Invalid API response: notifications array missing
+[2026-05-30T05:46:06.577Z] [INFO] === Campus Priority Inbox — Stage 1 Started ===
+[2026-05-30T05:46:06.609Z] [INFO] Fetching notifications from: http://4.224.186.213/evaluation-service/notifications
+[2026-05-30T05:46:06.716Z] [INFO] API Status Code: 200
+[2026-05-30T05:46:06.725Z] [INFO] Total notifications received: 20
+[2026-05-30T05:46:06.730Z] [INFO] Scored [8ff63671] Type="Placement" weight=30 recency=0.01 total=30.01
+[2026-05-30T05:46:06.732Z] [INFO] Scored [96ee50d6] Type="Event" weight=10 recency=0.01 total=10.01
+[2026-05-30T05:46:06.734Z] [INFO] Scored [ae347c8c] Type="Result" weight=20 recency=0.02 total=20.02
+[2026-05-30T05:46:06.740Z] [INFO] Scored [bd8703bd] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.742Z] [INFO] Scored [e161928a] Type="Event" weight=10 recency=0.01 total=10.01
+[2026-05-30T05:46:06.745Z] [INFO] Scored [ef001736] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.746Z] [INFO] Scored [44fec2e8] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.747Z] [INFO] Scored [f57e7877] Type="Result" weight=20 recency=0.02 total=20.02
+[2026-05-30T05:46:06.748Z] [INFO] Scored [1a618bc9] Type="Result" weight=20 recency=0.02 total=20.02
+[2026-05-30T05:46:06.750Z] [INFO] Scored [1dc9c6cb] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.750Z] [INFO] Scored [ef3c4c08] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.752Z] [INFO] Scored [a18b6446] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.753Z] [INFO] Scored [6401b59d] Type="Event" weight=10 recency=0.01 total=10.01
+[2026-05-30T05:46:06.754Z] [INFO] Scored [078db8f6] Type="Event" weight=10 recency=0.02 total=10.02
+[2026-05-30T05:46:06.755Z] [INFO] Scored [dc98ecfa] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.755Z] [INFO] Scored [93bbaa30] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.756Z] [INFO] Scored [6de39cff] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.757Z] [INFO] Scored [6ba90c2f] Type="Placement" weight=30 recency=0.01 total=30.01
+[2026-05-30T05:46:06.757Z] [INFO] Scored [40ec0044] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.758Z] [INFO] Scored [7b3e2015] Type="Result" weight=20 recency=0.01 total=20.01
+[2026-05-30T05:46:06.759Z] [INFO] Sorted. Picking top 10...
+[2026-05-30T05:46:06.760Z] [INFO] ========================================
+[2026-05-30T05:46:06.760Z] [INFO]    PRIORITY INBOX — Top 10 Notifications
+[2026-05-30T05:46:06.761Z] [INFO] ========================================
+[2026-05-30T05:46:06.894Z] [INFO] #01 | [Placement] | Score: 30.01 | "CSX Corporation hiring" | 29/5/2026, 4:14:38 pm
+[2026-05-30T05:46:06.895Z] [INFO] #02 | [Placement] | Score: 30.01 | "Microsoft Corporation hiring" | 29/5/2026, 3:46:03 pm
+[2026-05-30T05:46:06.896Z] [INFO] #03 | [Result   ] | Score: 20.02 | "internal" | 30/5/2026, 3:15:53 am
+[2026-05-30T05:46:06.896Z] [INFO] #04 | [Result   ] | Score: 20.02 | "mid-sem" | 30/5/2026, 12:45:28 am
+[2026-05-30T05:46:06.897Z] [INFO] #05 | [Result   ] | Score: 20.02 | "mid-sem" | 30/5/2026, 12:15:23 am
+[2026-05-30T05:46:06.897Z] [INFO] #06 | [Result   ] | Score: 20.01 | "end-sem" | 29/5/2026, 10:14:53 pm
+[2026-05-30T05:46:06.898Z] [INFO] #07 | [Result   ] | Score: 20.01 | "end-sem" | 29/5/2026, 9:44:28 pm
+[2026-05-30T05:46:06.898Z] [INFO] #08 | [Result   ] | Score: 20.01 | "internal" | 29/5/2026, 8:15:38 pm
+[2026-05-30T05:46:06.898Z] [INFO] #09 | [Result   ] | Score: 20.01 | "external" | 29/5/2026, 8:15:13 pm
+[2026-05-30T05:46:06.899Z] [INFO] #10 | [Result   ] | Score: 20.01 | "project-review" | 29/5/2026, 7:15:48 pm
+[2026-05-30T05:46:06.899Z] [INFO] ========================================
+[2026-05-30T05:46:06.900Z] [INFO] === Stage 1 Complete ===
